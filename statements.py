@@ -15,9 +15,8 @@ else:
 e = 6
 f = 6
 
-
 if e < f:
 	pass
 else:
-	if e == f
+	if e == f:
 		print('they are equal')
