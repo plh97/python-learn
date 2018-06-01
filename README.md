@@ -8,7 +8,7 @@ my javascript can't do more thing. so also it's a good time while i leave my wor
 
 
 ### useless speak.
-python is so many place smailar with javascript.but i still don't know how to write an web backend or web crawler.
+python is so many place similar with javascript.but i still don't know how to write an web backend or web crawler.
 
 ### TODO
 - [ ] 学习python基础语法 - learn python basic language usage.
@@ -18,6 +18,7 @@ python is so many place smailar with javascript.but i still don't know how to wr
 - [ ] still  not paper for it.
 
 ### Reference
-[How to Use If Else Statements in Python (Python Tutorial #2)
-](https://www.youtube.com/watch?v=AWek49wXGzI)
+[How to Use If Else Statements in Python](https://www.youtube.com/watch?v=AWek49wXGzI)
+
+
 [python 菜鸟教程](http://www.runoob.com/python/python-continue-statement.html)
