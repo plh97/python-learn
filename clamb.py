@@ -4,13 +4,11 @@
 import asyncio
 from pyppeteer import launch
 
-url = 'pipk.top/article'
-
 async def main():
     browser = await launch()
     page = await browser.newPage()
-    await page.goto('https://'+url)
-    await page.screenshot({'path': url+'.png'})
+    await page.goto('https://pipk.top/article')
+    await page.screenshot({'path': 'pipk.png'})
     await browser.close()
 
 asyncio.get_event_loop().run_until_complete(main())
