@@ -9,3 +9,15 @@ if a <b:
 	print 'say something'
 else:
 	print 'a is bigger'
+
+
+
+e = 6
+f = 6
+
+
+if e < f:
+	pass
+else:
+	if e == f
+		print('they are equal')

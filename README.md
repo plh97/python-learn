@@ -7,8 +7,10 @@ why i learn python , i need another one computer language skill.
 my javascript can't do more thing. so also it's a good time while i leave my work, go to another work with 6kRMB salary. it less to compare with my age. but WTF, tencent/sina/alipay/xiaomi set my introduction in other place.
 
 
+### useless speak.
+python is so many place smailar with javascript.but i still don't know how to write an web backend or web crawler.
 
-## TODO
+### TODO
 - [ ] 学习python基础语法 - learn python basic language usage.
 
 - [ ] 利用python基础语法制作爬虫 - use basic python to make an Web Crawler
@@ -16,3 +18,6 @@ my javascript can't do more thing. so also it's a good time while i leave my wor
 - [ ] still  not paper for it.
 
 ### Reference
+[How to Use If Else Statements in Python (Python Tutorial #2)
+](https://www.youtube.com/watch?v=AWek49wXGzI)
+[python 菜鸟教程](http://www.runoob.com/python/python-continue-statement.html)
