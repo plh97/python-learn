@@ -11,6 +11,7 @@ else:
 	print 'a is bigger'
 
 
+
 e = 6
 f = 6
 
@@ -22,16 +23,9 @@ else:
 
 
 name = 'peng'
-height_m = 2
-weight_kg = 60
+height = 2
+weight = 60
 
 bmi = weight_kg / (height_m ** 2)
 print('bmi:')
 print(bmi)
-
-if bmi < 25:
-	print(name,bmi)
-	print('you are not overweigh')
-else:
-	print(name,bmi)
-	print('you are overweigh')
