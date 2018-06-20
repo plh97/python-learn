@@ -20,7 +20,7 @@ python is so many place similar with javascript.but i still don't know how to wr
 
 - [ ] 利用python基础语法制作爬虫 - use basic python to make an Web Crawler
 
-- [ ] still  not paper for it.
+- [ ] 运用爬虫  争取follower数量达到1w
 
 ### Reference
 [How to Use If Else Statements in Python](https://www.youtube.com/watch?v=AWek49wXGzI)
