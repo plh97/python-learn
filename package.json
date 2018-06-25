@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pengliheng/python/issues"
   },
-  "homepage": "https://github.com/pengliheng/python#readme"
+  "homepage": "https://github.com/pengliheng/python#readme",
+  "dependencies": {
+    "puppeteer": "^1.5.0"
+  }
 }

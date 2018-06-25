@@ -4,6 +4,8 @@
 import asyncio
 from pyppeteer import launch
 import re
+import time
+
 
 async def main():
     browser = await launch({
@@ -13,12 +15,20 @@ async def main():
         "slowMo": 1,
     })
     page = await browser.newPage()
-    await page.goto('https://pipk.top')
-    await page.screenshot({'path': 'pipk.png'})
-    html = await page.evaluate('''() => {
-        return document.body.outerHTML
-    }''')
-    result = re.match("http.*?comment/(.*?)", html)
-    print(result, html)
-    await browser.close()
+    await page.setViewport({ "width": 1566, "height": 768 })
+
+    # await page.goto('https://juejin.im/post/5b2fcdbbe51d4558817e0dd8')
+    await page.goto('https://github.com/KevinHock?page=2&tab=following')
+    button = await page.querySelector('.position-relative button')
+    info = await page.evaluate('(button) => button.click()', button)
+
+    print(info)
+    time.sleep(1000)
+
+
+    # for num in range(0,20000):  # 迭代 10 到 20 之间的数字
+        # time.sleep(1)
+        # await page.reload()
+    # await browser.close()
+
 asyncio.get_event_loop().run_until_complete(main())
