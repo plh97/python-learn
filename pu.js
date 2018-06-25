@@ -2,12 +2,13 @@ const puppeteer = require('puppeteer');
 const dely = ms => new Promise(res=> setTimeout(res,ms));
 
 (async (ctx) => {
-  let pageIndex = 11;
+  let pageIndex = 36;
   const browser = await puppeteer.launch({
     // 想要代码运的好，还得首选金丝雀
-    "executablePath": "C:/Users/33318/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    // "executablePath": "C:/Users/33318/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
     timeout: 0,
-    headless: false,
+    headless: true,
     slowMo: 1,
   });
   const page = await browser.newPage();
