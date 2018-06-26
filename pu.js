@@ -8,7 +8,7 @@ const dely = ms => new Promise(res=> setTimeout(res,ms));
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
     // "executablePath": "C:/Users/33318/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
     timeout: 0,
-    headless: false,
+    // headless: false,
     slowMo: 1,
   });
   const page = await browser.newPage();
