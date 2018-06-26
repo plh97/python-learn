@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const dely = ms => new Promise(res=> setTimeout(res,ms));
 
 (async () => {
-  let pageIndex = 90;
+  let pageIndex = 93;
   const browser = await puppeteer.launch({
     // 想要代码运的好，还得首选金丝雀
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
