@@ -2,11 +2,11 @@ const puppeteer = require('puppeteer');
 const dely = ms => new Promise(res=> setTimeout(res,ms));
 
 (async () => {
-  let pageIndex = 56;
+  let pageIndex = 82;
   const browser = await puppeteer.launch({
     // 想要代码运的好，还得首选金丝雀
-    // args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    "executablePath": "C:/Users/33318/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    // "executablePath": "C:/Users/33318/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
     timeout: 0,
     headless: false,
     slowMo: 1,
@@ -59,6 +59,1056 @@ const dely = ms => new Promise(res=> setTimeout(res,ms));
     width: 1000,
     height: 800,
   });
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
+
+
+
+  _btns = await page.$$('.btn.btn-sm.js-toggler-target')
+  for (let i = 0; i < _btns.length; i++) {
+    if(i>2 && i%2==0){
+      console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+      await dely(3000)
+      await _btns[i] && _btns[i].click()
+    }
+  }
+  await page.goto(`https://github.com/KevinHock?page=${pageIndex++}&tab=following`);
+
+
 
 
 
