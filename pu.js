@@ -2,11 +2,11 @@ const puppeteer = require('puppeteer');
 const dely = ms => new Promise(res=> setTimeout(res,ms));
 
 (async () => {
-  let pageIndex = 440
+  let pageIndex = 985
   const browser = await puppeteer.launch({
     // 想要代码运的好，还得首选金丝雀
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    // "executablePath": "C:/Users/33318/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
+    // args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    "executablePath": "C:/Users/33318/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
     timeout: 0,
     // headless: false,
     slowMo: 1,
@@ -72,6 +72,7 @@ const dely = ms => new Promise(res=> setTimeout(res,ms));
     for (let i = 0; i < _btns.length; i++) {
       if(i>1 && i%2==0){
         console.log(`当前页面第${i}条，当前是第${pageIndex}页`);
+        console.log(`去到：https://github.com/KevinHock?page=${pageIndex}&tab=following`);
         await dely(3000)
         await _btns[i] && _btns[i].click()
       }
