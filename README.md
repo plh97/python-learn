@@ -1,6 +1,6 @@
 ### 前言
 当我发现国外教材都用的python直接写代码的时候,我才发现,只会JavaScript真的不只是雪崩.
-![image](https://static.pipk.top/api/public/images/6907333849590849.png)
+
 
 ### TODO
 - [ ] 学习python基础语法 - learn python basic language usage.
