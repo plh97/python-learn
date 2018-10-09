@@ -2,6 +2,9 @@
 当我发现国外教材都用的python直接写代码的时候,我才发现,只会JavaScript真的不只是雪崩.
 
 
+### 学完之后
+学了python,学会之后,才能开始真正的学习编程呢...
+
 ### TODO
 - [ ] 学习python基础语法 - learn python basic language usage.
 

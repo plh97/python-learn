@@ -14,7 +14,7 @@ print y
 
 
 # 你也可以直接打印变量 %r  -> r 会保留两边双引号
-print "I said: %r." % x
+print "I said: %d." % x
 print "I also said: %r" % y
 
 
@@ -31,3 +31,13 @@ print joke_evaluation % hilarious
 w = "This is the left side of..."
 e = "a string with a right side"
 print w+e
+
+
+
+
+
+# %r -> 主要用于debug,因为它会显示原始数据
+# %d -> 用于展示数字
+# %s -> 用于展示字符串
+
+
