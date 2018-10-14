@@ -7,7 +7,7 @@
 
 ### python中的保留字
 | keep word | descript |
-|:-:| - |
+|:-:|:-:|
 | and | & |
 | or | | |
 | not | ! |
