@@ -65,6 +65,7 @@ def secret_formula(started):
 
 
 start_point = 10000
+
 beans, jars, crates = secret_formula(start_point)
 
 print "With a starting point of: %d" % start_point

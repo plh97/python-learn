@@ -36,6 +36,14 @@
 | lambda | ?????? |
 
 
+### python 数据类型
+- True
+- False
+- None
+- strings
+- strings
+
+
 
 
 
