@@ -2,7 +2,7 @@
 当我发现国外教材都用的python直接写代码的时候,我才发现,只会JavaScript真的不只是雪崩.其实我发现日本不用JavaScript的,用java用的多得多,用python也有,固~人生苦短,我用python
 
 ### 人生苦短,我用python
-
+python 同样是一门灵活的动态语言
 
 
 ### python中的保留字
