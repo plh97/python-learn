@@ -1,7 +1,28 @@
 # 不可改变的数组
 
 
-a = (9,2,3,4,5,6,7)
+one = input(">>")
+two = input(">>")
+three = input(">>")
+four = input(">>")
+five = input(">>")
 
-a.append(123)
-print(a)
+
+arr = [one,two,three,four,five]
+
+
+def printRes(arr):
+    res='The names are '
+    for i in arr:
+        res+=i+' '
+    print(res)
+
+printRes(arr)
+
+which = input('need to replace which one?')
+
+val = input('new name?')
+
+arr[int(which)] = val
+
+printRes(arr)
