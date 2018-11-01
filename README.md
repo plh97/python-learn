@@ -52,7 +52,7 @@ python 同样是一门灵活的动态语言
 学了python,学会之后,才能开始真正的学习编程呢...
 
 ### TODO
-- [-] 学习python基础语法 - learn python basic language usage.
+- [x] 学习python基础语法 - learn python basic language usage.
 - [ ] 利用python基础语法制作爬虫 - use basic python to make an Web Crawler
 - [ ] 运用爬虫  争取follower数量达到1w
 - [ ] 全栈制作MVC类型的网站,利用Django2,制作电商网站,拿到1w+薪水.
