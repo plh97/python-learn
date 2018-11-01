@@ -133,6 +133,13 @@ print("print [%x]" % 123)
 # print [7b]
 ```
 
+### ctypes 库
+
+
+
+
+
+
 ### 最后
 
 还是得学习 python 啊,c,java 搞不了,还是 python 把,JavaScript 页面工程太表层了额.期待有个环境,钱多事少,让我能在课余时间多学习...虽然还是菜.
