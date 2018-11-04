@@ -26,3 +26,8 @@
     class Car(Body, Engine, Suspension, Interior):
   ```
   只要每个父类中的变量和方法与其他变量和方法不冲突,新的子类可以访问他们毫无问题.但是,
+
+
+
+[画一个自动收缩的圆](./circle.py)
+[画一个在屏幕内弹来弹去的正方形](./circle.py)

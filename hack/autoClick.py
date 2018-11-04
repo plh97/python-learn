@@ -9,7 +9,7 @@ x_dim, y_dim = m.screen_size()
 
 
 for i in range(1000):
-    # time.sleep(0.05)
+    time.sleep(0.02)
     m.click(x_dim*0.8, y_dim/2, 1)
 
 
