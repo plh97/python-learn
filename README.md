@@ -51,7 +51,7 @@ python 同样是一门灵活的动态语言
 ### TODO
 - [x] 学习python基础语法 - learn python basic language usage.
 - [ ] 利用python基础语法制作爬虫 - use basic python to make an Web Crawler
-- [ ] 运用爬虫  争取follower数量达到1w
+- [x] 运用爬虫  争取follower数量达到1w
 - [ ] 全栈制作MVC类型的网站,利用Django2,制作电商网站,拿到1w+薪水.
 - [ ] 抑或利用前后端分离,nodejs实现静态资源加载.而python爬去数据,java提供数据接口,而前端利用react实现.赞不赞,嘿嘿~
 - [ ] 学会pygame游戏编程,
