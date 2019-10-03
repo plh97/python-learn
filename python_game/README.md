@@ -31,3 +31,8 @@
 
 [画一个自动收缩的圆](./circle.py)
 [画一个在屏幕内弹来弹去的正方形](./circle.py)
+
+### Prerequisites
+```Python
+pip install -r requirements.txt
+```
