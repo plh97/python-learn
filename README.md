@@ -58,11 +58,9 @@ python 同样是一门灵活的动态语言
 - [ ] 利用python提供后端服务,而react制作网页,egret白鹭引擎为游戏框架,制作前端游戏web游戏开发.
 
 ### Reference
-[How to Use If Else Statements in Python](https://www.youtube.com/watch?v=AWek49wXGzI)
 
+[How to Use If Else Statements in Python](https://www.youtube.com/watch?v=AWek49wXGzI)
 
 [python 菜鸟教程](http://www.runoob.com/python/python-continue-statement.html)
 
-
-###### pretty well website to teach me.
 [python program](https://pythonprogramming.net/)
